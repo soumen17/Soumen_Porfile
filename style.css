@@ -213,6 +213,12 @@ section {
   height: 2rem;
 }
 
+.iconf {
+  cursor: pointer;
+  height: 1.88rem;
+}
+
+
 /* BUTTONS */
 
 .btn-container {
