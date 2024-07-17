@@ -11,6 +11,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.allcon{
+  display: flex;
+  flex-direction: column;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -108,8 +113,9 @@ a:hover {
 .menu-links a {
   display: block;
   padding: 10px;
+  /* text-align: center; */
   font-size: .82rem;
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
@@ -218,7 +224,6 @@ section {
   height: 1.88rem;
 }
 
-
 /* BUTTONS */
 
 .btn-container {
@@ -324,6 +329,13 @@ section {
 
 #experience {
   position: relative;
+  padding-top: 170px;
+}
+
+@media (max-width: 1200px) {
+  #experience {
+    padding-top: 0px;
+  }
 }
 
 .experience-sub-title {
